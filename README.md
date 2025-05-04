@@ -1,6 +1,6 @@
 # MCP SaluteSpeech
 
-[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sergej/mcp_voice_salute)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/trashchenkov/mcp_voice_salute)
 
 MCP SaluteSpeech - это реализация MCP (Model Context Protocol) сервера, предоставляющего инструменты для работы с голосовыми [API SaluteSpeech](https://developers.sber.ru/docs/ru/salutespeech/overview) от Сбера. Позволяет AI ассистентам записывать речь пользователя с микрофона, распознавать её с помощью и синтезировать речь из текста.
 
