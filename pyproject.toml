@@ -1,0 +1,34 @@
+[project]
+name = "mcp_voice_salute"
+version = "0.1.1"
+description = "MCP сервер для работы с голосовыми API SaluteSpeech от Сбера"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+authors = [
+    { name = "Sergei Trashchenkov", email = "trashchenkov@gmail.com" }
+]
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.6.0",
+    "pyaudio>=0.2.14",
+    "speechrecognition>=3.14.2",
+    "sounddevice>=0.5.1",
+    "numpy>=1.26.0",
+    "uv>=0.7.2",
+]
+
+[project.scripts]
+mcp-salutespeech = "mcp_voice_salute.server:run"
+
+
+[project.urls]
+Homepage = "https://github.com/trashchenkov/mcp_voice_salute"
+
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["mcp_voice_salute"]

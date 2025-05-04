@@ -1,0 +1,31 @@
+# --- Python common ---
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# --- Virtualenvs / uv tool envs ---
+.venv/
+.env/
+uv_cache/
+.mypy_cache/
+.pytest_cache/
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# --- MCP / Cursor ---
+.cursor/
+
+
+# --- Secrets ---
+.env.local
+.env.*
+*.pem
