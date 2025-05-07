@@ -1,6 +1,6 @@
 [project]
 name = "mcp_voice_salute"
-version = "0.1.1"
+version = "0.1.2"
 description = "MCP сервер для работы с голосовыми API SaluteSpeech от Сбера"
 readme = "README.md"
 requires-python = ">=3.12"
